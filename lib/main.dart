@@ -5,7 +5,6 @@ import 'models/task.dart';
 import 'providers/task_provider.dart';
 import 'screens/home_screen.dart';
 import 'services/notification_service.dart';
-
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 void main() async {
@@ -17,7 +16,6 @@ void main() async {
     final taskBox = await Hive.openBox<Task>('tasks');
 
     await NotificationService.initialize();
-
     runApp(
       ProviderScope(
         overrides: [
