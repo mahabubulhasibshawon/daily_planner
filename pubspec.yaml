@@ -39,8 +39,8 @@ dependencies:
   hive_flutter: ^1.1.0
   awesome_notifications: ^0.8.2
   uuid: ^3.0.7
-#  hooks_riverpod: ^2.4.9
-#  flutter_hooks: ^0.20.3
+  hooks_riverpod: ^2.4.9
+  flutter_hooks: ^0.20.3
 
 dev_dependencies:
   flutter_test:
