@@ -1,16 +1,43 @@
-# offline_daily_planner_4
+# Daily Planner App
 
-A new Flutter project.
+## Overview
+The **Daily Planner App** is a Flutter-based task management application that helps users organize their daily activities efficiently. It utilizes **Riverpod** for state management and **Hive** for local storage. Additionally, **Awesome Notifications** is used to send reminders for scheduled tasks.
 
-## Getting Started
+## Screenshots
+![daily_planner.png](daily_planner.png)
 
-This project is a starting point for a Flutter application.
+## Features
+- **15-Day Planner**: Users can schedule and view tasks for the next 15 days.
+- **Horizontal Date Scrolling**: Easily navigate between days using a horizontally scrollable date picker.
+- **Task Management**: Add, update, delete, and mark tasks as completed.
+- **Reminders & Notifications**: Get timely reminders using **Awesome Notifications**.
+- **Minimal & Elegant UI**: A clean and user-friendly interface for seamless task management.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+- **Flutter**: Cross-platform UI development.
+- **Riverpod**: State management.
+- **Hive**: Local storage for tasks.
+- **Awesome Notifications**: Push notifications for task reminders.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahabubulhasibshawon/daily_planner.git
+   cd daily-planner
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the app:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Contribution
+Feel free to fork the repository and submit pull requests to enhance the app.
+
+## License
+This project is licensed under the **MIT License**.
+
